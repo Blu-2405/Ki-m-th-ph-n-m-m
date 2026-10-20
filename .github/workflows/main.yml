@@ -1,7 +1,7 @@
 name: Restful-Booker CI Pipeline 
 on: [push, pull_request] # Pipeline kích hoạt khi có ai đó đẩy code lên 
 jobs: 
-  api-testing: 
+  api-testing:
     runs-on: ubuntu-latest # Chạy trên một máy chủ Linux ảo 
     steps: 
     - name: 1. Checkout mã nguồn 
